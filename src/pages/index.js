@@ -15,10 +15,10 @@ class IndexPage  extends React.Component{
       <div className='main'>
         <div className='info-wrapper'>
           <div className='info first'>
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/493461042&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/493461042&color=%236a13cc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <h3><strong>Album :</strong> <a href="https://soundcloud.com/qwabi-ayabonga/soliloquy?in=qwabi-ayabonga/sets/2nd-chapter">I Are </a> </h3>
         </div>
-        <div className='info 2'>
+        <div className='info sec'>
           <div className='details'>
             <h1>Ayabonga Qwabi</h1>
             <h3>Maker of things</h3>
