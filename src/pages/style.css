@@ -1,0 +1,503 @@
+body{
+    background: rebeccapurple;
+}
+.main{
+    background: #663399a6;
+    width: 100vw;
+    height: 100vh;
+}
+.details{
+    text-align: left;
+    padding: 20px 20px;
+}
+.details .footer img{
+    width:40px;
+    height:40px;
+}
+.details .footer{
+    margin-top:60px;
+}
+.details .footer .git{
+    width:36px;
+    height:36px;
+}
+.details .footer .lnkd{
+    margin-bottom: 23px;
+}
+.details .footer .cx{
+    width:100px;
+    margin-left:140px;
+}
+.details h1{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'PingFang SC';
+    margin-bottom: 0px;
+}
+.details h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'PingFang SC';
+    margin-right: 10px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.main h2,h3,h4,h5,h6{
+    font-weight: 300;
+    line-height: 0.3;
+}
+.info-wrapper{
+    padding-top: 30vh;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+    background: #663399a6;
+
+}
+.info-between{
+    margin: auto;
+    width: 30vw;
+    background: rgbba(0,0,0,0);
+    overflow: hidden;
+    height: 261px;
+    display: inline-block;
+}
+.info{
+    margin: auto;
+    width: 580px;
+    background: #ffffff;
+    overflow: hidden;
+    height: 261px;
+    display: inline-block;
+    
+
+}
+.info-wrapper .first{
+}
+a {
+    color: orange;
+    text-decoration: none;
+}
+.first .details{
+    margin-top:20px;
+}
+.first .details h2{
+    line-height: 1;
+    font-size: 22px;
+}
+
+.info .dp{
+    display: inline-block;
+    width: 35%;
+}
+.info .details{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+.info .dp img{
+    filter: none;
+    max-width: 100%;
+}
+.main img{
+    max-width:100%;
+    max-height: 100%;
+    display: inline-block;
+}
+.images{
+    height:100vh;
+}
+.images .fishhead{
+    height: 100%;
+    width: 70%;
+    width: 100vw;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+
+@keyframes dissapear{
+    0%{
+        transform: translateY(10px);
+        transition: transform 1s linear;
+        filter: saturate(1);
+    }
+    100%{
+        transform: translateY(0px);
+        transition: transform .5s linear;
+        filter: saturate(1);
+    }
+}
+
+@keyframes moveLeft{
+    0%{
+        transform: translateX(10px)translateY(10px);
+        transition: transform 1s ease-in-out;
+        opacity: 1;
+    }
+    50%{
+        opacity:0.6;
+    }
+    75%{
+        opacity:0.3;
+    }
+    100%{
+        transform: translateX(20px)translateY(0px);
+        transition: transform 1s ease-in-out;
+        opacity: 0.2;
+    }
+}
+
+@keyframes moveRight{
+    0%{
+        transform: translateX(-10px);
+        transition: transform 1s ease-in-out;
+    }
+    100%{
+        transform: translateX(-40px);
+        transition: transform 1s ease-in-out;
+    }
+}
+@keyframes donut{
+    0%{
+        transform: rotate(-720deg);
+        transition: transform 1s ease-in-out;
+    }
+    100%{
+        transform: rotate(720deg);
+        transition: transform 1s ease-in-out;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideAnimateBubble {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+@-moz-keyframes sideAnimateBubble {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+@keyframes sideAnimateBubble {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+@keyframes inverseSideAnimateBubble {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 1000px;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+@keyframes inverseAnimateBubble {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 1000px;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes upWays { 
+    0% { 
+        margin-top:0px;
+    }
+    100% { 
+        margin-top:50px;
+    }
+}
+
+@keyframes inverseUpWays { 
+    0% { 
+        margin-top:50px;
+    }
+    100% { 
+        margin-top:0px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: sideAnimateBubble 5s linear infinite, upWays 2s ease-in-out infinite alternate;
+	-moz-animation: sideAnimateBubble  5s linear infinite, upWays 2s ease-in-out infinite alternate;
+	animation: sideAnimateBubble  5s linear infinite, upWays 2s ease-in-out infinite alternate;
+	
+	top: -5%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: inverseSideAnimateBubble 6s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: inverseSideAnimateBubble 6s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: inverseSideAnimateBubble 6s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: sideAnimateBubble 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: sideAnimateBubble 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: sideAnimateBubble 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 10%;
+	top: 40%;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: inverseSideAnimateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: inverseSideAnimateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: inverseSideAnimateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 20%;
+	top: 0;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+    transform: scale(0.3);
+    background: url('/static/slack.png')
+}
+
+.x5 {
+    -webkit-animation: inverseAnimateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: inverseAnimateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: inverseAnimateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 30%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: sideAnimateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: sideAnimateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: sideAnimateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 50%;
+	top: 0;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: inverseAnimateBubble 4s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: inverseAnimateBubble 4s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: inverseAnimateBubble 4s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 65%;
+	top: 70%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: sideAnimateBubble 4s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: sideAnimateBubble 7s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: sideAnimateBubble 4s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: sideAnimateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: sideAnimateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: inverseAnimateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: inverseAnimateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: inverseAnimateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	filter: blur(100px);
+    height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.bubble:after {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), black);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); IE6-9 fallback on horizontal gradient */
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	
+	content: "";
+    height: 180px;
+	left: 10px;
+	position: absolute;
+	width: 180px;
+}
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-9-15 19:9:11
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation kenburns-top-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes kenburns-top-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 16%;
+              transform-origin: 84% 16%;
+              transition: transform 5s linear;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(20px, -15px);
+              transform: scale(1.25) translate(20px, -15px);
+      -webkit-transform-origin: right top;
+              transform-origin: right top;
+             transition: transform 5s linear;
+    }
+  }
+  @keyframes kenburns-top-right {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+              transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 84% 16%;
+              transform-origin: 84% 16%;
+              transition: transform 5s linear;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(20px, -15px);
+              transform: scale(1.25) translate(20px, -15px);
+      -webkit-transform-origin: right top;
+              transform-origin: right top;
+              transition: transform 5s linear;
+              
+    }
+  }
+  
