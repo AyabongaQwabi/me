@@ -33,25 +33,25 @@ class IndexPage  extends React.Component{
             <h3>Wizard in web development</h3>
             <div className='footer'>
               <a href="https://github.com/AyabongaQwabi">
-                <img className='git' src='./github.png' />
+                <img className='git' src='/github.png' />
               </a>
               <a href="https://www.linkedin.com/in/ayabongaqwabi/">
-              <img className='lnkd' src='./linkedin.png' />
+              <img className='lnkd' src='/linkedin.png' />
               </a>
               <a href="htttp://www.projectcodex.co">
-                <img className='cx' src='./codex.svg' />
+                <img className='cx' src='/codex.svg' />
               </a>
           </div>
           </div>
           <div className='dp'>
-            <img src='./simsim.png' />
+            <img src='/simsim.png' />
           </div>
           
         </div>
         </div>
 
         <div className='images'>
-          <img className='fishhead' src='./roofvin.jpg'/>
+          <img className='fishhead' src='/roofvin.jpg'/>
         </div>
 
 
