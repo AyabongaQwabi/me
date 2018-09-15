@@ -136,6 +136,12 @@ a {
 .images{
     height:100vh;
 }
+.images{
+    @media screen and (max-width: 768px){
+       background: url('/roofvin.jpg') center center no-repeat;
+       background-size:cover;
+    }
+}
 .images .fishhead{
     height: 100%;
     width: 70%;
@@ -143,9 +149,10 @@ a {
     text-align: center;
     background-size: cover;
     overflow: hidden;
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 768px){
         width: 100vw;
         height:100vh;
+        display:none;
     }
     
 }
