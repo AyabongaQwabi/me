@@ -1,14 +1,18 @@
 body{
+    width: 100vw;
+    height: 100vh;
     background: rebeccapurple;
 }
 .main{
     background: #663399a6;
-    width: 100vw;
-    height: 100vh;
 }
 .details{
     text-align: left;
     padding: 20px 20px;
+    
+    @media (max-width: 480px) {
+        width:100vw !important; 
+    }
 }
 .details .footer img{
     width:40px;
@@ -46,6 +50,9 @@ body{
 .main h2,h3,h4,h5,h6{
     font-weight: 300;
     line-height: 0.3;
+    @media (max-width: 480px) {
+        line-height: 2;
+    }
 }
 .info-wrapper{
     padding-top: 30vh;
@@ -55,6 +62,9 @@ body{
     text-align: right;
     z-index: 1;
     background: #663399a6;
+    @media (max-width: 480px) {
+        padding-top: 0px;
+    }
 
 }
 .info-between{
@@ -72,8 +82,21 @@ body{
     overflow: hidden;
     height: 261px;
     display: inline-block;
-    
+    @media (max-width: 480px) {
+        width: 100vw;
+        height:100px; 
+    }
 
+}
+.sec{
+    @media (max-width: 480px) {
+        height:620px; 
+    }
+}
+.footer{
+    @media (max-width: 480px) {
+        width:100vw; 
+    }
 }
 .info-wrapper .first{
 }
@@ -92,6 +115,9 @@ a {
 .info .dp{
     display: inline-block;
     width: 35%;
+    @media (max-width: 480px) {
+        width: 100vw; 
+    }
 }
 .info .details{
     display: inline-block;
@@ -117,6 +143,10 @@ a {
     text-align: center;
     background-size: cover;
     overflow: hidden;
+    @media screen and (max-width: 1024px){
+        width: 100vw;
+        height:100vh;
+    }
     
 }
 
