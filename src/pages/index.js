@@ -1,6 +1,10 @@
 import React from 'react'
 import './style.css';
-
+import git from '../static/github.png';
+import lnkd from '../static/linkedin.png';
+import cdx from '../static/codex.svg';
+import simsim from '../static/simsim.png';
+import rfvn from '../static/roofvin.jpg';
 class IndexPage  extends React.Component{
   constructor(){
     super();
@@ -33,25 +37,25 @@ class IndexPage  extends React.Component{
             <h3>Wizard in web development</h3>
             <div className='footer'>
               <a href="https://github.com/AyabongaQwabi">
-                <img className='git' src='/github.png' />
+                <img className='git' src={git} />
               </a>
               <a href="https://www.linkedin.com/in/ayabongaqwabi/">
-              <img className='lnkd' src='/linkedin.png' />
+              <img className='lnkd' src={lnkd} />
               </a>
               <a href="htttp://www.projectcodex.co">
-                <img className='cx' src='/codex.svg' />
+                <img className='cx' src={cdx} />
               </a>
           </div>
           </div>
           <div className='dp'>
-            <img src='/simsim.png' />
+            <img src={simsim} />
           </div>
           
         </div>
         </div>
 
         <div className='images'>
-          <img className='fishhead' src='/roofvin.jpg'/>
+          <img className='fishhead' src={rfvn}/>
         </div>
 
 
